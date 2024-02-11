@@ -10,6 +10,15 @@ Navigate effortlessly through a collection of Markdown files, thanks to Astro's 
 
 <br/>
 
+Homepage | Preview
+--- | ---
+![Alt text][sreenshot1] | ![Alt text][sreenshot2]
+
+[sreenshot1]: /public/Screenshot_2024-02-11_16-54-37.png
+[sreenshot2]: /public/Screenshot_2024-02-11_16-58-32.png
+
+<br/>
+
 ## Usage
 
 > Only content collections are allowed inside the src/content directory. This directory cannot be used for anything else.
