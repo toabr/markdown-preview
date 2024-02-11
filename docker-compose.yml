@@ -1,0 +1,10 @@
+version: "3.6"
+services:
+  astro:
+    build: .
+    image: toabr/markdown-preview
+    ports:
+      - "127.0.0.1:3000:4321"
+    restart: unless-stopped
+    volumes:
+      - ~/Notes:/app/src/content/md

@@ -1,0 +1,14 @@
+---
+import { getCollection } from "astro:content";
+import GitHubLayout from "../layouts/GitHubLayout.astro";
+
+const files = await getCollection("md");
+---
+<GitHubLayout>
+    <h2>Files:</h2>
+    {files &&
+        <ul>
+          {files.map(file => <li><a href={`${import.meta.env.BASE_URL}md/${file.slug}/`}>{file.slug}</a></li>)}
+        </ul>
+    }
+</GitHubLayout>

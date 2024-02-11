@@ -1,0 +1,16 @@
+{
+  "name": "markdown-preview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "astro dev --host",
+    "dev": "astro dev",
+    "build": "astro build"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^2.1.1",
+    "astro": "^4.3.5",
+    "github-markdown-css": "^5.5.1"
+  }
+}
